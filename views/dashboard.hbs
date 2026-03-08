@@ -1,0 +1,25 @@
+{{>menu id="dashboard"}}
+
+<section class="ui left aligned middle aligned segment">
+    <h2>Cat App Dashboard</h2>
+
+    {{#each felines}}
+        <section class="ui center aligned middle aligned segment">
+
+            <h3 class="ui left aligned header big">
+                {{groupName}}
+            </h3>
+            {{#if cats}}
+            <p class="ui left aligned header">Cats found: {{cats.length}}</p>
+            {{else}}
+            <p>No cats :C</p>
+            {{/if}}
+
+            <a href="felines/{{id}}">
+            <i class="massive cat icon "></i></a>
+        
+        </section>
+    {{/each}}
+
+
+</section>

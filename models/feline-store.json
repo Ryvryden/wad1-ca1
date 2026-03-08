@@ -1,0 +1,76 @@
+{
+    "felineCollection":[
+        {
+            "id" : "01",
+            "groupName": "Big Cats",
+            "cats": [
+                {
+                    "id": "04",
+                    "image" : "/bigcat1.jpg",
+                    "name": "Tiger"
+                    
+                },
+                {
+                     "id": "05",
+                    "image" : "/bigcat2.png",
+                    "name": "Lion"
+                    
+                },
+                {
+                     "id": "06",
+                    "image" : "/bigcat3.jpg",
+                    "name": "Snow Leopard"
+                    
+                }
+            ]
+        },
+        {
+            "id" : "02",
+            "groupName": "Small Cats",
+            "cats": [
+                {
+                    "id": "07",
+                    "image" : "/smallcat1.jpg",
+                    "name": "Clouded Leopard"
+                    
+                },
+                {
+                    "id": "08",
+                    "image" : "/smallcat2.jpg",
+                    "name": "Cheetach"
+                    
+                },
+                {
+                    "id": "09",
+                    "image" : "/smallcat3.jpg",
+                    "name": "Lynx"
+                    
+                }
+            ]
+        },
+        {
+            "id" : "03",
+            "groupName": "House Cats",
+            "cats": [
+                {
+                    "id": "10",
+                    "image": "/houseCat1.jpg",
+                    "name": "Glafira"
+                    
+                },
+                {
+                    "id": "11",
+                    "image" : "/houseCat2.jpg",
+                    "name": "name1"
+                    
+                },
+                {
+                    "id": "12",
+                    "image" : "/houseCat3.jpg",
+                    "name": "name2"
+                    
+                }
+            ]
+        }
+    ]
+}

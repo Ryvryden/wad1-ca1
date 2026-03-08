@@ -1,0 +1,29 @@
+{{#if singleFeline.cats}}
+
+<table class="ui unstackable striped table">
+    <thead>
+        <tr>
+            <th>Cat!</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each singleFeline.cats}}
+            <tr>
+                <td>
+                    {{name}}
+                </td>
+                <td>
+                    <img class="ui small image" src="{{image}}">
+                </td>
+            </tr>
+        {{/each}}
+    </tbody>
+
+
+</table>
+
+{{else}}
+<h3 class="ui message">
+    No Cattos!
+</h3>
+{{/if}}
