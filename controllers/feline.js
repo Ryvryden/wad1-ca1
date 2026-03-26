@@ -2,6 +2,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 
+
 import logger from '../utils/logger.js';
 import felineStore from '../models/feline-store.js';
 
@@ -14,7 +15,7 @@ const feline ={
             title: 'Feline',
             singleFeline: felineStore.getFeline(felineId)
         };
-
+        logger.info(viewData.singleFeline)
         response.render('feline', viewData);
     },
     addCat(request, response) {
@@ -23,16 +24,17 @@ const feline ={
         const newCat = {
             id: uuidv4(),
             name: request.body.name,
+            image: request.body.image,
         };
         felineStore.addCat(felineId, newCat);
-        response.redirect('/feline/' + felineId);
+        response.redirect('/felines/' + felineId);
     },
     deleteCat(request, response){
         const felineId = request.params.id;
-        const catsId = request.params.id;
-        logger.debug(`Deleting Cat  $(catId} from Feline ${playlistId}`);
+        const catsId = request.params.catid;
+        logger.debug(`Deleting Cat  $(catId} from Feline ${felineId}`);
         felineStore.removeCat(felineId, catsId);
-        response.redirect('/feline'+ felineId);
+        response.redirect('/felines/'+ felineId);
     }
 };
 
