@@ -1,10 +1,6 @@
 # Assignment 1 Starter Project
 
-Use this starter project as the basis for Assignment One
-
-You should: 
-
-- Download this project from GitHub as a ZIP file
-- Complete the CA1 starter lab to set up your own GitHub repo for Assignment 1
-- Edit the files with your own content
+v0.1 Created and populated main pages.
+v0.2 Updated Dashboard section to display cats.
+v0.3 Updated About page to show icons that are grabing information using #with info.
 
