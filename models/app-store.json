@@ -1,7 +1,7 @@
 {
   "info": {
     "appTitle": "Cat viewer app",
-    "version": 0.1,
+    "version": 0.3,
       
     "creators": [
       {
@@ -10,6 +10,6 @@
       }
       
     ],
-    "location": "Waterford"
+    "location": "Amersfoort"
   }
 }

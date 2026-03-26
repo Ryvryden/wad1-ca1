@@ -13,6 +13,12 @@ const felineStore = {
     getFeline(id){
         return this.store.findOneBy(this.collection, (feline => feline.id === id));
     },
+    addCat(id, cat) {
+        this.store.addItem(this.collection, id, this.array, cat);
+    },
+    removeCat(id, catId){
+        this.store.removeItem(this.collection,id, this.array, catId);
+    },
 
 };
 

@@ -7,34 +7,48 @@
         Information about the application.
     </p>
     <img class="ui medium image" src="map.png">
-    
-    
-    <div class="ui fluid statistics">
-        <div class="statistic">
-            <div class="label">
-                Visits
-            </div>
-            <div class="value">
-                160
-            </div>
+
+<div class="ui four statistics" style="margin-top: 1em;">
+    {{#with info}}
+    <div class="statistic">
+        <div class="value">
+            <i class="cat icon"></i>
         </div>
-        <div class="statistic">
-            <div class="label">
-                Location
-            </div>
-            <div class="value">
-                <i class="building icon"></i>Amersfoort
-            </div>
+        <div class="label">
+            App Title: <br>
+            {{appTitle}}
         </div>
-        <div class="statistic">
-            <div class="label">
-                Developer:
-            </div>
-            <div class="value">
-                Dmitrijs
-            </div>
+    </div>
+
+    <div class="statistic">
+        <div class="value">
+            <i class="map pin icon"></i>
+        </div>
+        <div class="label">
+            Located at: <br>
+            {{location}}
+        </div>
+    </div>
+    <div class="statistic">
+        <div class="value">
+            <i class="user icon"></i>
+        </div>
+        <div class="label">
+            Created by: <br>
+            {{creators.0.name}}
+        </div>
+    </div>
+    <div class="statistic">
+        <div class="value">
+            <i class="file icon"></i>
+        </div>
+        <div class="label">
+            App version: <br>
+            {{version}}
         </div>
     </div>
     
-  
+    
+    {{/with}}
+  </div>
 </section>

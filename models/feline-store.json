@@ -21,6 +21,11 @@
                     "image" : "/bigcat3.jpg",
                     "name": "Snow Leopard"
                     
+                },
+                {
+                    "id": "20",
+                    "image": "/",
+                    "name": "Test Delete"
                 }
             ]
         },

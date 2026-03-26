@@ -16,6 +16,8 @@ router.get('/', start.createView);
 router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 router.get('/felines/:id',feline.createView);
+router.get('/feline/:id/addcat', feline.addCat);
+router.get('/feline/:id/deletecat/:catid', feline.deleteCat);
 
 
 
