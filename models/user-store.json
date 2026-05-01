@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "admin",
+      "lastName": "adminL",
+      "email": "admin@e.com",
+      "password": "12345",
+      "id": "admin-id-1231r1551-asdawdada"
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Test1",
+      "email": "test1@12.com",
+      "password": "test12",
+      "id": "e86eb102-8e81-40e8-885a-47c939846dbb"
+    }
+  ]
+}

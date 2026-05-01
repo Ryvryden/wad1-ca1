@@ -1,36 +1,19 @@
-{{#if singleFeline.cats}}
+<section class="ui left aligned middle aligned segment">
+    {{> catHeader}}
 
-<table class="ui unstackable striped table">
-    <thead>
-        <tr>
-            <th>Cat!</th>
-        </tr>
-    </thead>
-    <tbody>
-        {{#each singleFeline.cats}}
-            <tr>
-                <td>
-                    {{name}}
-                </td>
-                <td>
-                    <img class="ui small image" src="{{image}}">
-                </td>
-                <td class="center aligned">
-                    <a href="/feline/{{../singleFeline.id}}/deletecat/{{id}}" 
-	                    title="Delete cat">
-                        <i class="ui black trash icon"></i>
-                        </a>
-                </td>
+    {{#unless search}}
+        {{#unless felines}}
+            <h3 class="ui message ">
+                Start adding your Cats!
+            </h3>
+        {{/unless}}
+    {{/unless}}
 
-            </tr>
-        {{/each}}
-    </tbody>
+    <div class="ui centered cards">
+    
+    {{#each felines}}
+      {{> catCard}}
+    {{/each}}
+    </div>
 
-
-</table>
-
-{{else}}
-<h3 class="ui message">
-    No Cattos!
-</h3>
-{{/if}}
+</section>

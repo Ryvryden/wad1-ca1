@@ -1,77 +1,11 @@
 {
   "felineCollection": [
     {
-      "id": "01",
-      "groupName": "Big Cats",
-      "cats": [
-        {
-          "id": "04",
-          "image": "/bigcat1.jpg",
-          "name": "Tiger"
-        },
-        {
-          "id": "05",
-          "image": "/bigcat2.png",
-          "name": "Lion"
-        },
-        {
-          "id": "06",
-          "image": "/bigcat3.jpg",
-          "name": "Snow Leopard"
-        },
-        {
-          "id": "20",
-          "image": "/404.jpg",
-          "name": "Test Delete"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "groupName": "Small Cats",
-      "cats": [
-        {
-          "id": "07",
-          "image": "/smallcat1.jpg",
-          "name": "Clouded Leopard"
-        },
-        {
-          "id": "08",
-          "image": "/smallcat2.jpg",
-          "name": "Cheetach"
-        },
-        {
-          "id": "09",
-          "image": "/smallcat3.jpg",
-          "name": "Lynx"
-        },
-        {
-          "id": "988c5f0b-fbc5-4ca3-9ea2-c5d365de802d",
-          "name": "test1",
-          "image": "https://static.vecteezy.com/system/resources/thumbnails/050/393/628/small/cute-curious-gray-and-white-kitten-in-a-long-shot-photo.jpg"
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "groupName": "House Cats",
-      "cats": [
-        {
-          "id": "10",
-          "image": "/houseCat1.jpg",
-          "name": "Glafira"
-        },
-        {
-          "id": "11",
-          "image": "/houseCat2.jpg",
-          "name": "name1"
-        },
-        {
-          "id": "12",
-          "image": "/houseCat3.jpg",
-          "name": "name2"
-        }
-      ]
+      "userid": "admin-id-1231r1551-asdawdada",
+      "id": "8322289b-ab19-4a73-84a6-58f0693c931f",
+      "groupName": "test",
+      "cats": [],
+      "date": "2026-04-30T14:52:30.642Z"
     }
   ]
 }
