@@ -7,5 +7,6 @@ v0.4 Added Statistics page , search and sort functionallity. Fixed and add issue
 v0.5 Added user-store with loggin and logout.
 v0.6 Fixed upload and delete to cloud for pictures that are being added to the array.
 v0.7 Fixed a bug with a sort function.
+v0.7 ------Stable build------
 
 
